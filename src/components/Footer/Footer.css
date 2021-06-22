@@ -1,0 +1,48 @@
+@import '../../App.css';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--dark-black-blue);
+  border-top-right-radius: var(--border-radius-section);
+  padding: 4rem 1.2rem;
+}
+
+.footer__logo {
+  margin-bottom: 4rem;
+}
+
+.footer__navigation-list {
+  padding: 0;
+  list-style: none;
+}
+
+.footer__navigation-item {
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 4rem;
+}
+
+.footer__navigation-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer__navigation-title {
+  font-size: var(--medium-font);
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.footer__navigation-anchor {
+  display: block;
+  font-size: var(--medium-font);
+  color: var(--white);
+  text-decoration: none;
+  margin-bottom: .8rem;
+}
+
+.footer__navigation-anchor:last-of-type {
+  margin-bottom: 0;
+}

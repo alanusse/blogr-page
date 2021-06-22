@@ -1,0 +1,16 @@
+.textBlock__title {
+  max-width: 80%;
+  font-size: var(--extra-large-font);
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--dark-black-blue);
+}
+
+.textBlock__text {
+  font-size: var(--medium-font);
+  line-height: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+  color: var(--dark-grayish-blue);
+}

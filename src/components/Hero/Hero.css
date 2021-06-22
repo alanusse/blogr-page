@@ -1,0 +1,35 @@
+@import '../../App.css';
+
+.hero {
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom-left-radius: var(--border-radius-section);
+  padding: 1.2rem;
+  min-height: 80vh;
+  background: url('../../assets/bg-pattern-intro.svg') 40% 40% / 350% no-repeat,
+    var(--primary-gradient);
+}
+
+.hero__title {
+  text-align: center;
+  font-size: var(--heading-font);
+}
+
+.hero__subtitle {
+  text-align: center;
+  font-weight: 300;
+  font-size: var(--medium-font);
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.hero__buttonsContainer {
+  display: flex;
+}
+
+.hero__buttonsContainer * {
+  margin: 0 .8rem;
+}

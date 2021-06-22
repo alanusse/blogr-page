@@ -1,0 +1,63 @@
+{
+  "navigation": [
+    {
+      "section": "Product",
+      "anchors": [
+        {
+          "title": "Overview",
+          "url": "#"
+        },
+        {
+          "title": "Pricing",
+          "url": "#"
+        },
+        {
+          "title": "Marketplace",
+          "url": "#"
+        },
+        {
+          "title": "Features",
+          "url": "#"
+        },
+        {
+          "title": "Integrations",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "section": "Company",
+      "anchors": [
+        {
+          "title": "About",
+          "url": "#"
+        },
+        {
+          "title": "Team",
+          "url": "#"
+        },
+        {
+          "title": "Blog",
+          "url": "#"
+        },
+        {
+          "title": "Careers",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "section": "Connect",
+      "anchors": [
+        {
+          "title": "Newsletter",
+          "url": "#"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}
