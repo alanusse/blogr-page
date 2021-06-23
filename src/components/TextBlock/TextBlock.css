@@ -14,3 +14,14 @@
   margin: 2rem 0;
   color: var(--dark-grayish-blue);
 }
+
+@media (min-width: 870px) {
+  .textBlock__title {
+    text-align: start;
+    margin: 0;
+  }
+
+  .textBlock__text {
+    text-align: start;
+  }
+}
