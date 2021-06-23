@@ -2,8 +2,9 @@ import React from 'react'
 import './Button.css'
 
 const BUTTON_STYLES = {
-  transparentWithBorder: 'button__transparentWithBorder',
-  white: 'button__white',
+  transparentWithBorder: 'button--transparentWithBorder',
+  white: 'button--white',
+  gradient: 'button--gradient'
 }
 
 function Button({ text, type, isLink, to }) {
