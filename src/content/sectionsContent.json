@@ -22,7 +22,6 @@
     {
       "id": 1,
       "highlight": true,
-      "backgroundPattern": "/images/bg-pattern-circles.svg",
       "image": {
         "desktop": "/images/illustration-phones.svg",
         "mobile": "/images/illustration-phones.svg",

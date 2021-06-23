@@ -21,21 +21,35 @@
   text-decoration: none;
 }
 
-.button__transparentWithBorder {
+.button--transparentWithBorder {
   border: .1rem solid var(--white);
 }
 
-.button__transparentWithBorder:hover {
+.button--transparentWithBorder:hover {
   background-color: var(--white);
   color: var(--primary-light-red)
 }
 
-.button__white {
+.button--white {
   background-color: var(--white);
   color: var(--primary-light-red)
 }
 
-.button__white:hover {
+.button--white:hover {
   background-color: var(--primary-lighter-red);
   color: var(--white);
+}
+
+.button--gradient {
+  background: linear-gradient(to left, var(--primary-light-red), var(--primary-lighter-red));
+}
+
+.button--gradient:hover {
+  background: var(--white);
+  color: var(--primary-light-red)
+}
+
+.button--transparent {
+  color: var(--primary-blue);
+  font-weight: 300;
 }
