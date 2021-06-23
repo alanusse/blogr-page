@@ -2,6 +2,7 @@ import React from 'react'
 import './Button.css'
 
 const BUTTON_STYLES = {
+  transparent: 'button--transparent',
   transparentWithBorder: 'button--transparentWithBorder',
   white: 'button--white',
   gradient: 'button--gradient'
